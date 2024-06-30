@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NoticiasImpacto</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Font Awesome para íconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+  <!-- Encabezado -->
+  <header class="header_main">
+    <div class="div_titulo">
+      <img class="tituloimg" src="imgFN.jpg" alt="Logo" width="85px" height="72px"/>
+      <h1 class="titulo">NoticiasImpacto</h1>
+      <h4 class="slogan">"Noticias que inspiran, informan y conectan."</h4>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+    </button>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Estado</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Internacional</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Política</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Deportes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Economía</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link iniciar" href="iniciarSecion.html">Iniciar Sesión</a>
+          </li>
+        </ul>
+        <a href="registrarse.html" class="btn btn-primary ml-auto">Registrarse</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Slider -->
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imaperi.jpeg" class="d-block w-1" alt="Imagen 1">
+      </div>
+      <div class="carousel-item">
+        <img src="periodico22.jpg" class="d-block w-30" alt="Imagen 2">
+      </div>
+    </div>
+  </div>
+
+  <!-- Contenido principal -->
+  <div class="div_general">
+    <main>
+      <section>
+        <article>
+          <h1>ELECCIONES EN MÉXICO Entre Michoacán y Colima:</h1>
+          <img src="imgElecciones.avif" alt="Imagen Elecciones" width="200px" height="200px" /><br />
+          ELECCIONES EN MÉXICO Entre Michoacán y Colima: elecciones en la
+          frontera bajo la violenta sombra del cártel PABLO FERRI|Tecomán /
+          Coahuayana (México)|26 MAY 2024 - 22:10 CST Municipios del corredor
+          del plátano votan en junio decenas de cargos locales y federales.
+          Economías pujantes, bandas de criminales, viejos grupos autodefensas
+          y centenares de víctimas se entrelazan con la elección
+        </article>
+        <article>
+          <h1>Una campaña sin propuestas para los 18 millones de votantes con discapacidad</h1>
+          <img src="imgDiscapacidad.avif" alt="Imagen Discapacidad" width="200px" height="200px" /><br />
+          Una campaña sin propuestas para los 18 millones de votantes con
+          discapacidad JORGE VAQUERO SIMANCAS|México|25 MAY 2024 - 22:18 CST
+          Los testimonios de cuatro personas con distintas discapacidades
+          revelan que para ellos las ciudades son intransitables, se les niega
+          el acceso a la información y los infantilizan. En este proceso
+          electoral los candidatos han mirado para otro lado
+        </article>
+        <article>
+          <h1>De la Amazonía profunda a imputado por la mayor incautación de ayahuasca en México</h1>
+          <img src="imgCultura.avif" alt="Imagen Cultura" width="200px" height="200px" /><br />
+          De la Amazonía profunda a imputado por la mayor incautación de
+          ayahuasca en México EUGENIA COPPEL|México|25 MAY 2024 - 22:00 CST
+          Ako Kamanawa es el último indígena vinculado a un proceso penal
+          relacionado con la introducción del brebaje psicoactivo, considerado
+          como droga por la Fiscalía, pero una medicina natural para él y su
+          comunidad
+        </article>
+      </section>
+    </main>
+    <aside>
+      <p>Comentarios</p>
+      <label for="opinion">Deja tus opiniones</label>
+      <input type="text" id="opinion" name="opinion" /><br /><br />
+      <input type="button" value="Guardar" /><br />
+      <h3>Relacionado</h3>
+      <a href="https://www.eluniversal.com.mx"><p>https://www.eluniversal.com.mx/</p></a>
+    </aside>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <h1>NoticiasImpacto</h1>
+    <a href="#"><p>¿Qué somos?</p></a>
+    <p>Autor: NoticiasImpacto</p>
+    <p>Fecha de publicación: 24 de mayo del 2024</p>
+    <p>Contacto: 7711122395 Facebook: @NoticiasImpacto Instagram: @NoticiasImpacto</p>
+  </footer>
+
+  <!-- JavaScript y jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
